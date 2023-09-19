@@ -1,0 +1,40 @@
+* {
+  font-family: 'Roboto Mono', monospace;
+  margin: 0;
+}
+
+.nav {
+background-color: black;
+height: 100vh;
+padding: 25px;
+width: 150px;
+}
+
+.navbar {
+display: flex;
+flex-direction: column;
+position: fixed;
+}
+
+.navitem {
+padding: 10px;
+}
+
+body > ul {
+list-style: none;
+}
+
+body > div {
+margin-left: 225px;
+margin-right: 25px;
+}
+
+.details {
+padding: 25px;
+#height: 100vh;
+} 
+
+.links {
+color: white;
+text-decoration: none;
+}
