@@ -4,37 +4,46 @@
 }
 
 .nav {
-background-color: black;
-height: 100vh;
-padding: 25px;
-width: 150px;
+  background-color: black;
+  height: 100vh;
+  padding: 25px;
+  width: 150px;
 }
 
 .navbar {
-display: flex;
-flex-direction: column;
-position: fixed;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
 }
 
 .navitem {
-padding: 10px;
+  padding: 10px;
 }
 
 body > ul {
-list-style: none;
+  list-style: none;
 }
 
 body > div {
-margin-left: 225px;
-margin-right: 25px;
+  margin-left: 225px;
+  margin-right: 25px;
 }
 
 .details {
-padding: 25px;
-#height: 100vh;
+  padding: 25px;
 } 
 
-.links {
-color: white;
-text-decoration: none;
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+#links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon {
+  margin: 10px;
+  border: 5px solid black;
 }
